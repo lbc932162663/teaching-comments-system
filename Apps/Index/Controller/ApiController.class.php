@@ -30,7 +30,7 @@ class ApiController extends Controller {
 
 
     public function index() {
-        echo '<h1>Api 接口 <a href="">文档</a></h1>';    
+        echo '<h1>Api 接口 <a href="https://github.com/GiantMing/teaching-comments-system/blob/master/README.md">文档</a></h1>';    
     }
 
     public function register() {
