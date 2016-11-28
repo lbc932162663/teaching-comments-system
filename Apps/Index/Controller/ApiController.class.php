@@ -86,7 +86,46 @@ class ApiController extends Controller {
         } else {
             $this->ajaxReturn($this->return[401]);
         }
-        $this->ajaxReturn($this->return);
+
+
+    }
+
+    public function bindStuid() {
+        $name = I('post.name/s');
+        $stuid = I('post.stuid/s');
+
+        if($name == '' || stuid == '') {
+            $this.ajaxReturn($this->return[412]);
+            return;
+        }
+
+
+        $RelUserStuid = M('RelUserStuid');
+
+        $stuidOfName = !!$RelUserStuid->where(['name' => $name])->find();
+
+        echo 0 == false;
+
+        if($stuidOfName) {
+
+            $RelUserStuid->where(['name' => $name])->save(['name' => $name, 'stuid' => $stuid]);
+            $this->ajaxReturn($this->return[200]);
+            return;
+        }
+
+        $RelUserStuid->create(['name' => $name, 'stuid' => stuid]);
+        $isSuccess = $RelUserStuid->add();
+
+        if($isSuccess) {
+            $this->ajaxReturn($this->return[200]);
+        } else {
+            $this->ajaxReturn($this->return[500]);
+        }
+
+
+
+
+
 
 
     }

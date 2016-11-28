@@ -890,3 +890,109 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
 
+[ 2016-11-28T15:38:45+08:00 ] ::1 /tp/api/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003418s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0249s ]
+SQL: SELECT * FROM `user` WHERE `name` = 'ming' AND `pwd` = '95c90aa47733b9023c318d9914606339' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-11-28T15:39:11+08:00 ] ::1 /tp/api/bindstuid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Use of undefined constant stuid - assumed 'stuid' /Applications/MAMP/htdocs/tp/Apps/Index/Controller/ApiController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant stuid - assumed 'stuid' /Applications/MAMP/htdocs/tp/Apps/Index/Controller/ApiController.class.php 第 112 行.
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+ERR: Call to a member function add() on array
+
+[ 2016-11-28T15:39:39+08:00 ] ::1 /tp/api/bindstuid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] Use of undefined constant stuid - assumed 'stuid' /Applications/MAMP/htdocs/tp/Apps/Index/Controller/ApiController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant stuid - assumed 'stuid' /Applications/MAMP/htdocs/tp/Apps/Index/Controller/ApiController.class.php 第 112 行.
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_user_stuid` (`name`,`stuid`) VALUES ('ming','stuid') [ RunTime:0.0024s ]
+
+[ 2016-11-28T15:40:26+08:00 ] ::1 /tp/api/bindstuid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+NOTIC: [8] Use of undefined constant stuid - assumed 'stuid' /Applications/MAMP/htdocs/tp/Apps/Index/Controller/ApiController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `rel_user_stuid` SET `stuid`='stuid',`name`='ming' WHERE `name` = 'ming' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002714s ]
+
+[ 2016-11-28T15:41:20+08:00 ] ::1 /tp/api/bindstuid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] Use of undefined constant stuid - assumed 'stuid' /Applications/MAMP/htdocs/tp/Apps/Index/Controller/ApiController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `rel_user_stuid` SET `stuid`='stuid',`name`='ming' WHERE `name` = 'ming' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-11-28T15:42:32+08:00 ] ::1 /tp/api/bindstuid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8] Use of undefined constant stuid - assumed 'stuid' /Applications/MAMP/htdocs/tp/Apps/Index/Controller/ApiController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `rel_user_stuid` SET `stuid`='stuid',`name`='ming' WHERE `name` = 'ming' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-11-28T15:43:18+08:00 ] ::1 /tp/api/bindstuid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+NOTIC: [8] Use of undefined constant stuid - assumed 'stuid' /Applications/MAMP/htdocs/tp/Apps/Index/Controller/ApiController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `rel_user_stuid` SET `name`='ming',`stuid`='2014210014' WHERE `name` = 'ming' [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
