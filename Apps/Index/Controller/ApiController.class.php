@@ -28,8 +28,36 @@ class ApiController extends Controller {
                 'status' => 500,
                 'info' => 'server error'
             ],
+
     ];
 
+    // 课表去重  
+    protected function kbUnique($kbList) {
+        $hash = [];
+        $unique = [];
+        for ($i = 0; $i < count($kbList); $i++) { 
+            $kebiao = $kbList[$i];
+
+            $course_num = $kebiao->course_num;
+            $teacher = $kebiao->teacher;
+            $course_name = $kebiao->course;
+
+            if($hash[$course_num] == 1) {
+                continue;
+            }
+            $hash[$kebiao->course_num] = 1;
+
+            $unique[] = [
+                'id' => NULL,
+                'course_num' => $course_num,
+                'course_name' => $course_name,
+                'teacher' => $teacher,
+            ];
+
+        }
+
+        return $unique;
+    }
 
     public function index() {
         echo '<h1>Api 接口 <a href="https://github.com/GiantMing/teaching-comments-system/blob/master/README.md">文档</a></h1>';    
@@ -129,19 +157,65 @@ class ApiController extends Controller {
             return $this->ajaxReturn($this->return[412]);
         }
 
+        // 未绑定学号的用户不能直接通过此接口查询课表
+        $hasBindUser = !!M('RelUserStuid')->where(['stuid' => $stuid])->find();
 
-        
+        if(!$hasBindUser) {
+            return $this->ajaxReturn($this->return[401]);
+        }
 
 
-        $response = \Requests::post($kebiao_api_url, [], ['stuNum' => $stuid]);
-        
+        // 查数据库有的话就返回了
+        $Model = new \Think\Model();
+
+        $courseList = $Model->query("SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=%s", $stuid);
+
+        if($courseList) {
+            return $this->ajaxReturn($courseList);
+        }
+
+        // 阿西吧, 请求数据
+        $response = \Requests::post($kebiao_api_url, [], ['stuNum' => $stuid, 'forceFetch' => true]);
+
         $data = json_decode($response->body);
 
         if($data->status != 200) {
             return $this->ajaxReturn($data);
         }
         
-        $kebiao = $data->data;
+        $kbList = $data->data;
+
+        $kbList = $this->kbUnique($kbList);
+
+        $Course = M('Course');
+        $RelStuidCourse = M('RelStuidCourse');
+        
+        for ($i=0; $i < count($kbList); $i++) { 
+            $kb = $kbList[$i];
+            $condition['teacher'] = $kb['teacher'];
+            $condition['course_num'] = $kb['course_num'];
+            
+            $c = $Course->where($condition)->find();
+            
+
+            if($c) {
+                $rel = ['stuid'=>$stuid, 'course_id'=>$c['id']];
+                
+                $RelStuidCourse->create($rel);
+                $RelStuidCourse->add();
+                continue;
+            }
+
+            var_dump($kb);
+            $Course->create($kb);
+            $id = $Course->add();
+
+            $rel = ['stuid' => $stuid, 'course_id' => $id];
+            $RelStuidCourse->create($rel);
+            $RelStuidCourse->add();
+
+        }
+
 
 
 
