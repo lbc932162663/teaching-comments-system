@@ -2,6 +2,8 @@
 
 namespace Index\Controller;
 
+require 'vendor/autoload.php';
+
 use Think\Controller;
 
 class ApiController extends Controller {
@@ -39,8 +41,7 @@ class ApiController extends Controller {
 
         // 参数验证
         if($name == '' || $pwd == '') {
-            $this->ajaxReturn($this->return[412]);
-            return;
+            return $this->ajaxReturn($this->return[412]);
         }
 
 
@@ -49,8 +50,7 @@ class ApiController extends Controller {
         $isExist = !!$User->where(['name'=>$name])->find();
         
         if($isExist) {
-            $this->ajaxReturn($this->return[419]);
-            return;
+            return $this->ajaxReturn($this->return[419]);
         }
 
         $User->create(['name' => $name, 'pwd' => $pwd]);
@@ -99,12 +99,9 @@ class ApiController extends Controller {
             return;
         }
 
-
         $RelUserStuid = M('RelUserStuid');
 
         $stuidOfName = !!$RelUserStuid->where(['name' => $name])->find();
-
-        echo 0 == false;
 
         if($stuidOfName) {
 
@@ -121,15 +118,35 @@ class ApiController extends Controller {
         } else {
             $this->ajaxReturn($this->return[500]);
         }
+    }
 
 
+    public function stuClass() {
+        $stuid = I('get.stuid');
+        $kebiao_api_url = 'http://hongyan.cqupt.edu.cn/api/kebiao';
 
+        if($stuid == '') {
+            return $this->ajaxReturn($this->return[412]);
+        }
+
+
+        
+
+
+        $response = \Requests::post($kebiao_api_url, [], ['stuNum' => $stuid]);
+        
+        $data = json_decode($response->body);
+
+        if($data->status != 200) {
+            return $this->ajaxReturn($data);
+        }
+        
+        $kebiao = $data->data;
 
 
 
 
     }
-
 
 
 
