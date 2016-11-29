@@ -149,7 +149,7 @@ class ApiController extends Controller {
     }
 
 
-    public function stuClass() {
+    public function stuCourse() {
         $stuid = I('get.stuid');
         $kebiao_api_url = 'http://hongyan.cqupt.edu.cn/api/kebiao';
 
