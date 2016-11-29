@@ -155,7 +155,6 @@ class ApiController extends Controller {
         } else {
             $this->ajaxReturn($this->return[500]);
         }
-
     }
 
     // 登录
@@ -180,8 +179,6 @@ class ApiController extends Controller {
         } else {
             $this->ajaxReturn($this->return[401]);
         }
-
-
     }
 
     // 绑定学号
@@ -308,6 +305,8 @@ class ApiController extends Controller {
             return $this->ajaxReturn(($this->return[500]));
         }
     }
+
+    
 }
 
 

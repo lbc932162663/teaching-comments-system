@@ -213,7 +213,7 @@
     "POST": "/api/comment",
     "field": {
       "name": String, // 用户名,
-      "id": Integer, // 课程 id
+      "course_id": Integer, // 课程 id
       "content": String // 评论内容
     }
   }
