@@ -222,7 +222,7 @@ class ApiController extends Controller {
 
         return $this->ajaxReturn([
             'status' => 200,
-            'success' => 'success',
+            'info' => 'success',
             'data' => $kbList,
         ]);
     }

@@ -97,3 +97,36 @@ SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0075s ]
 SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0004s ]
 SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0005s ]
 
+[ 2016-11-29T19:18:04+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+
+[ 2016-11-29T19:18:05+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+
+[ 2016-11-29T19:18:06+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+
