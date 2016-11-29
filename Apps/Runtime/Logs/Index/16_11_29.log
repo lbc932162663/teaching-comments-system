@@ -188,3 +188,1210 @@ INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
 
+[ 2016-11-29T19:59:04+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004104s ]
+ERR: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+
+[ 2016-11-29T19:59:22+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-11-29T19:59:35+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-11-29T20:01:27+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-11-29T20:01:41+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003342s ]
+
+[ 2016-11-29T20:02:04+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0062s ]
+SQL: SELECT `stuid` FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2016-11-29T20:02:16+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0029s ]
+SQL: SELECT `stuid` FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-11-29T20:02:33+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2016-11-29T20:07:58+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004209s ]
+
+[ 2016-11-29T20:09:26+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-11-29T20:09:38+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-11-29T20:09:46+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+ERR: syntax error, unexpected '$Model' (T_VARIABLE), expecting function (T_FUNCTION)
+
+[ 2016-11-29T20:10:08+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-11-29T20:10:46+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003783s ]
+
+[ 2016-11-29T20:10:59+08:00 ] ::1 /tcs/api/bindstuid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+
+[ 2016-11-29T20:11:14+08:00 ] ::1 /tcs/api/bindstuid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8] Use of undefined constant stuid - assumed 'stuid' /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `rel_user_stuid` SET `name`='ming',`stuid`='2014210014' WHERE `name` = 'ming' [ RunTime:0.0003s ]
+
+[ 2016-11-29T20:11:19+08:00 ] ::1 /tcs/api/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T20:11:22+08:00 ] ::1 /tcs/api/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE `name` = 'ming' AND `pwd` = '95c90aa47733b9023c318d9914606339' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-29T20:11:25+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0048s ]
+
+[ 2016-11-29T20:11:28+08:00 ] ::1 /tcs/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-11-29T20:11:34+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-11-29T20:11:49+08:00 ] ::1 /tcs/api/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-11-29T20:14:32+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0005s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php:204) /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-29T20:15:06+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: kebiao_api_url /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 43 行.
+ERR: Only HTTP(S) requests are handled.
+
+[ 2016-11-29T20:15:30+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 011305 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 96 行.
+NOTIC: [8] Undefined index: 010603 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 96 行.
+NOTIC: [8] Undefined index: 040161 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 96 行.
+NOTIC: [8] Undefined index: 010606 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 96 行.
+NOTIC: [8] Undefined index: 070111 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 96 行.
+NOTIC: [8] Undefined index: 010608 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 96 行.
+NOTIC: [8] Undefined index: 090113 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 96 行.
+NOTIC: [8] Undefined index: 010722 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 96 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `rel_stuid_course` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '景小荣' AND `course_num` = '011305' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','48') [ RunTime:0.0024s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '唐宏' AND `course_num` = '010603' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','49') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '吴桂军' AND `course_num` = '040161' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','63') [ RunTime:0.0050s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '庄陵' AND `course_num` = '010606' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','53') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '胡静昆' AND `course_num` = '070111' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','51') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王正强' AND `course_num` = '010608' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','52') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '魏晓明' AND `course_num` = '090113' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','64') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '张挺' AND `course_num` = '010722' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','65') [ RunTime:0.0032s ]
+
+[ 2016-11-29T20:16:14+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 011305 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010603 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 040161 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010606 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 070111 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010608 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 090113 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010722 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `rel_stuid_course` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '景小荣' AND `course_num` = '011305' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','48') [ RunTime:0.0027s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '唐宏' AND `course_num` = '010603' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','49') [ RunTime:0.0029s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '吴桂军' AND `course_num` = '040161' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','63') [ RunTime:0.0022s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '庄陵' AND `course_num` = '010606' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','53') [ RunTime:0.0026s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '胡静昆' AND `course_num` = '070111' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','51') [ RunTime:0.0028s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王正强' AND `course_num` = '010608' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','52') [ RunTime:0.0028s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '魏晓明' AND `course_num` = '090113' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','64') [ RunTime:0.0028s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '张挺' AND `course_num` = '010722' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','65') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php:206) /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-29T20:16:24+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php:206) /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-29T20:17:00+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php:206) /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-29T20:17:07+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 011305 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010603 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 040161 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010606 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 070111 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010608 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 090113 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010722 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `rel_stuid_course` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '景小荣' AND `course_num` = '011305' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','48') [ RunTime:0.0023s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '唐宏' AND `course_num` = '010603' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','49') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '吴桂军' AND `course_num` = '040161' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','63') [ RunTime:0.0023s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '庄陵' AND `course_num` = '010606' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','53') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '胡静昆' AND `course_num` = '070111' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','51') [ RunTime:0.0022s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王正强' AND `course_num` = '010608' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','52') [ RunTime:0.0023s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '魏晓明' AND `course_num` = '090113' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','64') [ RunTime:0.0028s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '张挺' AND `course_num` = '010722' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','65') [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php:206) /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-29T20:18:22+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+
+[ 2016-11-29T20:18:42+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 011305 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010603 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 040161 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010606 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 070111 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010608 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 090113 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010722 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `rel_stuid_course` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '景小荣' AND `course_num` = '011305' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','48') [ RunTime:0.0023s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '唐宏' AND `course_num` = '010603' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','49') [ RunTime:0.0024s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '吴桂军' AND `course_num` = '040161' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','63') [ RunTime:0.0022s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '庄陵' AND `course_num` = '010606' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','53') [ RunTime:0.0026s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '胡静昆' AND `course_num` = '070111' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','51') [ RunTime:0.0024s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王正强' AND `course_num` = '010608' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','52') [ RunTime:0.0026s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '魏晓明' AND `course_num` = '090113' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','64') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '张挺' AND `course_num` = '010722' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','65') [ RunTime:0.0024s ]
+
+[ 2016-11-29T20:18:51+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+
+[ 2016-11-29T20:20:39+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+
+[ 2016-11-29T20:20:51+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 011305 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 010603 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 040161 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 010606 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 070111 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 010608 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 090113 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 010722 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `rel_stuid_course` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '景小荣' AND `course_num` = '011305' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'011305','通信原理A','景小荣') [ RunTime:0.0022s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','66') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '唐宏' AND `course_num` = '010603' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010603','电信传输理论与工程','唐宏') [ RunTime:0.0026s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','67') [ RunTime:0.0029s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '吴桂军' AND `course_num` = '040161' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'040161','数据库技术及应用','吴桂军') [ RunTime:0.0024s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','68') [ RunTime:0.0032s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '庄陵' AND `course_num` = '010606' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010606','通信系统综合设计实训1','庄陵') [ RunTime:0.0027s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','69') [ RunTime:0.0029s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '胡静昆' AND `course_num` = '070111' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'070111','马克思主义基本原理','胡静昆') [ RunTime:0.0025s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','70') [ RunTime:0.0032s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王正强' AND `course_num` = '010608' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010608','通信网理论与应用','王正强') [ RunTime:0.0025s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','71') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '魏晓明' AND `course_num` = '090113' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'090113','排球俱乐部','魏晓明') [ RunTime:0.0025s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','72') [ RunTime:0.0032s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '张挺' AND `course_num` = '010722' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010722','ICT产品创新设计与运营','张挺') [ RunTime:0.0025s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','73') [ RunTime:0.0032s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php:77) /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-29T20:21:34+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0004s ]
+
+[ 2016-11-29T20:22:01+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 011305 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010603 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 040161 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010606 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 070111 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010608 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 090113 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+NOTIC: [8] Undefined index: 010722 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `rel_stuid_course` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '景小荣' AND `course_num` = '011305' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'011305','通信原理A','景小荣') [ RunTime:0.0026s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','74') [ RunTime:0.0027s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '唐宏' AND `course_num` = '010603' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010603','电信传输理论与工程','唐宏') [ RunTime:0.0026s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','75') [ RunTime:0.0032s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '吴桂军' AND `course_num` = '040161' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'040161','数据库技术及应用','吴桂军') [ RunTime:0.0027s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','76') [ RunTime:0.0034s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '庄陵' AND `course_num` = '010606' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010606','通信系统综合设计实训1','庄陵') [ RunTime:0.0029s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','77') [ RunTime:0.0032s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '胡静昆' AND `course_num` = '070111' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'070111','马克思主义基本原理','胡静昆') [ RunTime:0.0024s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','78') [ RunTime:0.0033s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王正强' AND `course_num` = '010608' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010608','通信网理论与应用','王正强') [ RunTime:0.0025s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','79') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '魏晓明' AND `course_num` = '090113' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'090113','排球俱乐部','魏晓明') [ RunTime:0.0025s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','80') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '张挺' AND `course_num` = '010722' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010722','ICT产品创新设计与运营','张挺') [ RunTime:0.0026s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','81') [ RunTime:0.0031s ]
+
+[ 2016-11-29T20:24:39+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 011305 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 010603 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 040161 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 010606 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 070111 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 010608 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 090113 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 010722 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `rel_stuid_course` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '景小荣' AND `course_num` = '011305' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','74') [ RunTime:0.0032s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '唐宏' AND `course_num` = '010603' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','75') [ RunTime:0.0024s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '吴桂军' AND `course_num` = '040161' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','76') [ RunTime:0.0050s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '庄陵' AND `course_num` = '010606' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','77') [ RunTime:0.0024s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '胡静昆' AND `course_num` = '070111' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','78') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王正强' AND `course_num` = '010608' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','79') [ RunTime:0.0023s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '魏晓明' AND `course_num` = '090113' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','80') [ RunTime:0.0024s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '张挺' AND `course_num` = '010722' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','81') [ RunTime:0.0025s ]
+
+[ 2016-11-29T20:24:52+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 011305 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 010603 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 040161 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 010606 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 070111 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 010608 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 090113 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+NOTIC: [8] Undefined index: 010722 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 99 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `rel_stuid_course` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '景小荣' AND `course_num` = '011305' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'011305','通信原理A','景小荣') [ RunTime:0.0033s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','82') [ RunTime:0.0012s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '唐宏' AND `course_num` = '010603' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010603','电信传输理论与工程','唐宏') [ RunTime:0.0034s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','83') [ RunTime:0.0009s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '吴桂军' AND `course_num` = '040161' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'040161','数据库技术及应用','吴桂军') [ RunTime:0.0007s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','84') [ RunTime:0.0011s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '庄陵' AND `course_num` = '010606' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010606','通信系统综合设计实训1','庄陵') [ RunTime:0.0035s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','85') [ RunTime:0.0009s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '胡静昆' AND `course_num` = '070111' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'070111','马克思主义基本原理','胡静昆') [ RunTime:0.0034s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','86') [ RunTime:0.0035s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王正强' AND `course_num` = '010608' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010608','通信网理论与应用','王正强') [ RunTime:0.0026s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','87') [ RunTime:0.0033s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '魏晓明' AND `course_num` = '090113' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'090113','排球俱乐部','魏晓明') [ RunTime:0.0028s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','88') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '张挺' AND `course_num` = '010722' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010722','ICT产品创新设计与运营','张挺') [ RunTime:0.0029s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','89') [ RunTime:0.0032s ]
+
+[ 2016-11-29T20:26:37+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+
+[ 2016-11-29T20:26:50+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 011305 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 100 行.
+NOTIC: [8] Undefined index: 010603 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 100 行.
+NOTIC: [8] Undefined index: 040161 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 100 行.
+NOTIC: [8] Undefined index: 010606 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 100 行.
+NOTIC: [8] Undefined index: 070111 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 100 行.
+NOTIC: [8] Undefined index: 010608 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 100 行.
+NOTIC: [8] Undefined index: 090113 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 100 行.
+NOTIC: [8] Undefined index: 010722 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `rel_stuid_course` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '景小荣' AND `course_num` = '011305' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'011305','通信原理A','景小荣') [ RunTime:0.0050s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','90') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '唐宏' AND `course_num` = '010603' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010603','电信传输理论与工程','唐宏') [ RunTime:0.0025s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','91') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '吴桂军' AND `course_num` = '040161' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'040161','数据库技术及应用','吴桂军') [ RunTime:0.0032s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','92') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '庄陵' AND `course_num` = '010606' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010606','通信系统综合设计实训1','庄陵') [ RunTime:0.0032s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','93') [ RunTime:0.0009s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '胡静昆' AND `course_num` = '070111' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'070111','马克思主义基本原理','胡静昆') [ RunTime:0.0030s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','94') [ RunTime:0.0011s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王正强' AND `course_num` = '010608' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010608','通信网理论与应用','王正强') [ RunTime:0.0035s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','95') [ RunTime:0.0008s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '魏晓明' AND `course_num` = '090113' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'090113','排球俱乐部','魏晓明') [ RunTime:0.0029s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','96') [ RunTime:0.0033s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '张挺' AND `course_num` = '010722' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010722','ICT产品创新设计与运营','张挺') [ RunTime:0.0027s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','97') [ RunTime:0.0033s ]
+
+[ 2016-11-29T20:27:57+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+
+[ 2016-11-29T20:28:03+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0005s ]
+
+[ 2016-11-29T20:28:10+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210438
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210438' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210438 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 011305 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 010603 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 090113 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 070111 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 010608 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 010606 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 010618 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `rel_stuid_course` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '景小荣' AND `course_num` = '011305' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','90') [ RunTime:0.0031s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '唐宏' AND `course_num` = '010603' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','91') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王亚红' AND `course_num` = '090113' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'090113','篮球俱乐部','王亚红') [ RunTime:0.0030s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','98') [ RunTime:0.0034s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '胡静昆' AND `course_num` = '070111' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','94') [ RunTime:0.0029s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王正强' AND `course_num` = '010608' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','95') [ RunTime:0.0029s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '庄陵' AND `course_num` = '010606' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','93') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '范馨月' AND `course_num` = '010618' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010618','数字图像处理技术','范馨月') [ RunTime:0.0024s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','99') [ RunTime:0.0014s ]
+
+[ 2016-11-29T20:28:34+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210438
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210438' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210438 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 011305 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 010603 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 090113 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 070111 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 010608 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 010606 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 010618 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `rel_stuid_course` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '景小荣' AND `course_num` = '011305' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'011305','通信原理A','景小荣') [ RunTime:0.0022s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','100') [ RunTime:0.0033s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '唐宏' AND `course_num` = '010603' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010603','电信传输理论与工程','唐宏') [ RunTime:0.0027s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','101') [ RunTime:0.0032s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王亚红' AND `course_num` = '090113' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'090113','篮球俱乐部','王亚红') [ RunTime:0.0027s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','102') [ RunTime:0.0033s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '胡静昆' AND `course_num` = '070111' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'070111','马克思主义基本原理','胡静昆') [ RunTime:0.0029s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','103') [ RunTime:0.0032s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王正强' AND `course_num` = '010608' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010608','通信网理论与应用','王正强') [ RunTime:0.0029s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','104') [ RunTime:0.0033s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '庄陵' AND `course_num` = '010606' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010606','通信系统综合设计实训1','庄陵') [ RunTime:0.0029s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','105') [ RunTime:0.0033s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '范馨月' AND `course_num` = '010618' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010618','数字图像处理技术','范馨月') [ RunTime:0.0027s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210438','106') [ RunTime:0.0034s ]
+
+[ 2016-11-29T20:28:40+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 011305 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 010603 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 040161 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 010606 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 070111 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 010608 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 090113 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+NOTIC: [8] Undefined index: 010722 /Applications/MAMP/htdocs/tcs/Apps/Index/Controller/ApiController.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `rel_stuid_course` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '景小荣' AND `course_num` = '011305' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','100') [ RunTime:0.0026s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '唐宏' AND `course_num` = '010603' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','101') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '吴桂军' AND `course_num` = '040161' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'040161','数据库技术及应用','吴桂军') [ RunTime:0.0027s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','107') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '庄陵' AND `course_num` = '010606' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','105') [ RunTime:0.0025s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '胡静昆' AND `course_num` = '070111' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','103') [ RunTime:0.0027s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '王正强' AND `course_num` = '010608' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','104') [ RunTime:0.0028s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '魏晓明' AND `course_num` = '090113' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'090113','排球俱乐部','魏晓明') [ RunTime:0.0027s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','108') [ RunTime:0.0032s ]
+SQL: SELECT * FROM `course` WHERE `teacher` = '张挺' AND `course_num` = '010722' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `course` (`id`,`course_num`,`course_name`,`teacher`) VALUES (NULL,'010722','ICT产品创新设计与运营','张挺') [ RunTime:0.0049s ]
+NOTIC: [2] Illegal offset type in isset or empty /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1015 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tcs/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `rel_stuid_course` (`stuid`,`course_id`) VALUES ('2014210014','109') [ RunTime:0.0032s ]
+

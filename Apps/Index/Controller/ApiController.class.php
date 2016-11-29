@@ -31,6 +31,62 @@ class ApiController extends Controller {
 
     ];
 
+    protected function getStuCourse($stuid) {
+
+        $Model = new \Think\Model();
+
+        $kebiao_api_url = 'http://hongyan.cqupt.edu.cn/api/kebiao';
+
+        $courseList = $Model->query("SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=%s", $stuid);
+
+        if($courseList) {
+            return $courseList;
+        }
+
+        $response = \Requests::post($kebiao_api_url, [], ['stuNum' => $stuid, 'forceFetch' => true]);
+
+        $data = json_decode($response->body);
+
+        if($data->status != 200) {
+            return false;
+        }
+        
+        $kbList = $data->data;
+
+        $kbList = $this->kbUnique($kbList);
+
+        $Course = M('Course');
+        $RelStuidCourse = M('RelStuidCourse');
+        
+        for ($i=0; $i < count($kbList); $i++) { 
+            $kb = $kbList[$i];
+            $condition['teacher'] = $kb['teacher'];
+            $condition['course_num'] = $kb['course_num'];
+            
+            $c = $Course->where($condition)->find();
+            
+
+            if($c) {
+                $kbList[$i]['id'] = $c['id'];
+                $rel = ['stuid'=>$stuid, 'course_id'=>$c['id']];
+                
+                $RelStuidCourse->create($rel);
+                $RelStuidCourse->add();
+                continue;
+            }
+
+            $Course->create($kb);
+            $id = $Course->add();
+
+            $kbList[$i]['id'] = $id;
+
+            $rel = ['stuid' => $stuid, 'course_id' => $id];
+            $RelStuidCourse->create($rel);
+            $RelStuidCourse->add();
+        }
+        return $kbList;
+    }
+
     // 课表去重  
     protected function kbUnique($kbList) {
         $hash = [];
@@ -151,7 +207,6 @@ class ApiController extends Controller {
 
     public function stuCourse() {
         $stuid = I('get.stuid');
-        $kebiao_api_url = 'http://hongyan.cqupt.edu.cn/api/kebiao';
 
         if($stuid == '') {
             return $this->ajaxReturn($this->return[412]);
@@ -159,66 +214,12 @@ class ApiController extends Controller {
 
         // 未绑定学号的用户不能直接通过此接口查询课表
         $hasBindUser = !!M('RelUserStuid')->where(['stuid' => $stuid])->find();
-
         if(!$hasBindUser) {
             return $this->ajaxReturn($this->return[401]);
         }
 
-
-        // 查数据库有的话就返回了
-        $Model = new \Think\Model();
-
-        $courseList = $Model->query("SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=%s", $stuid);
-
-        if($courseList) {
-            return $this->ajaxReturn([
-                'status' => 200,
-                'success' => 'success',
-                'data' => $courseList,
-            ]);
-        }
-
-        // 阿西吧, 请求数据
-        $response = \Requests::post($kebiao_api_url, [], ['stuNum' => $stuid, 'forceFetch' => true]);
-
-        $data = json_decode($response->body);
-
-        if($data->status != 200) {
-            return $this->ajaxReturn($data);
-        }
-        
-        $kbList = $data->data;
-
-        $kbList = $this->kbUnique($kbList);
-
-        $Course = M('Course');
-        $RelStuidCourse = M('RelStuidCourse');
-        
-        for ($i=0; $i < count($kbList); $i++) { 
-            $kb = $kbList[$i];
-            $condition['teacher'] = $kb['teacher'];
-            $condition['course_num'] = $kb['course_num'];
-            
-            $c = $Course->where($condition)->find();
-            
-
-            if($c) {
-                $rel = ['stuid'=>$stuid, 'course_id'=>$c['id']];
-                
-                $RelStuidCourse->create($rel);
-                $RelStuidCourse->add();
-                continue;
-            }
-
-            var_dump($kb);
-            $Course->create($kb);
-            $id = $Course->add();
-
-            $rel = ['stuid' => $stuid, 'course_id' => $id];
-            $RelStuidCourse->create($rel);
-            $RelStuidCourse->add();
-
-        }
+        // 获取课表
+        $kbList = $this->getStuCourse($stuid);
 
         return $this->ajaxReturn([
             'status' => 200,
@@ -226,4 +227,33 @@ class ApiController extends Controller {
             'data' => $kbList,
         ]);
     }
+
+    public function comment() {
+        $name = I('post.name/s');
+        $course_id = I('post.course_id/s');
+
+        if ($name == '' || $course_id == '') {
+            return $this->ajaxReturn($this->return[412]);
+        }
+
+        $userStuid = M("RelUserStuid")->where(['name' => $name])->limit(1)->find();
+        $stuid = $userStuid['stuid'];
+
+
+
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
