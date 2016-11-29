@@ -51,3 +51,49 @@ SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0032s ]
 SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
 SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
 
+[ 2016-11-29T18:53:52+08:00 ] ::1 /tcs/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004312s ]
+
+[ 2016-11-29T19:09:01+08:00 ] ::1 /tcs/api/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-11-29T19:09:04+08:00 ] ::1 /tcs/api/stuCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-11-29T19:09:09+08:00 ] ::1 /tcs/api/stuCourse?stuid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-11-29T19:09:13+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0005s ]
+

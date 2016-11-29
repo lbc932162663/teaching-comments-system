@@ -225,15 +225,5 @@ class ApiController extends Controller {
             'success' => 'success',
             'data' => $kbList,
         ]);
-
-
-
-
-
     }
-
-
-
-
-
 }

@@ -72,7 +72,7 @@
 
 + request
 
-  ```
+  ```JavaScript
   {
     "POST": '/api/login',
     "field": {
@@ -193,8 +193,8 @@
 
   // 没有绑定学号
   {
-  	'status' => 401,
-       'info' => 'authorized failed'  
+  	'status': 401,
+       'info': 'authorized failed'  
   }
 
   // 服务器错误
@@ -205,3 +205,4 @@
   ```
 
   ​
+
