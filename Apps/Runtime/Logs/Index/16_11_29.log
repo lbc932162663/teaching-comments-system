@@ -130,3 +130,61 @@ SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0062s ]
 SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0002s ]
 SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
 
+[ 2016-11-29T19:19:17+08:00 ] ::1 /tcs/api/stuCourse?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+
+[ 2016-11-29T19:25:14+08:00 ] ::1 /tcs/api/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `user` WHERE `name` = 'ming' AND `pwd` = '95c90aa47733b9023c318d9914606339' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-29T19:25:35+08:00 ] ::1 /tcs/api/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-29T19:26:03+08:00 ] ::1 /tcs/api/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `user` WHERE `name` = 'ming' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-29T19:26:54+08:00 ] ::1 /tcs/api/bindstuid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+ERR: Call to undefined function Index\Controller\ajaxReturn()
+
+[ 2016-11-29T19:27:14+08:00 ] ::1 /tcs/api/bindstuid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+

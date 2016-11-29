@@ -123,7 +123,7 @@ class ApiController extends Controller {
         $stuid = I('post.stuid/s');
 
         if($name == '' || stuid == '') {
-            $this.ajaxReturn($this->return[412]);
+            $this->ajaxReturn($this->return[412]);
             return;
         }
 
