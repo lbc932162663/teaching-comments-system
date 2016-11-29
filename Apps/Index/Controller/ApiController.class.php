@@ -233,7 +233,9 @@ class ApiController extends Controller {
             return $this->ajaxReturn($this->return[500]);
         }
 
-        $kbList = $kbList || [];
+        if($kbList == NULL) {
+            $kbList = [];
+        }
 
         return $this->ajaxReturn([
             'status' => 200,
@@ -254,7 +256,7 @@ class ApiController extends Controller {
             try {
                 
                 $comments = $Comment->where(['course_id' => $course_id])->select();
-                $comment = $comments || [];
+                
                 return $this->ajaxReturn([
                     'status' => 200,
                     'info'=> 'success',
