@@ -171,7 +171,11 @@ class ApiController extends Controller {
         $courseList = $Model->query("SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=%s", $stuid);
 
         if($courseList) {
-            return $this->ajaxReturn($courseList);
+            return $this->ajaxReturn([
+                'status' => 200,
+                'success' => 'success',
+                'data' => $courseList,
+            ]);
         }
 
         // 阿西吧, 请求数据
@@ -215,6 +219,12 @@ class ApiController extends Controller {
             $RelStuidCourse->add();
 
         }
+
+        return $this->ajaxReturn([
+            'status' => 200,
+            'success' => 'success',
+            'data' => $kbList,
+        ]);
 
 
 

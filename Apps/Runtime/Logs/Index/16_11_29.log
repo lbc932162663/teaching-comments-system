@@ -1,0 +1,20 @@
+[ 2016-11-29T15:36:32+08:00 ] ::1 /tp/api/stuclass?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004220s ]
+ERR: syntax error, unexpected '}', expecting ';'
+
+[ 2016-11-29T15:37:25+08:00 ] ::1 /tp/api/stuclass?stuid=2014210014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `rel_user_stuid` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `rel_user_stuid` WHERE `stuid` = '2014210014' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM course LEFT JOIN rel_stuid_course ON id=course_id WHERE stuid=2014210014 [ RunTime:0.0003s ]
+
