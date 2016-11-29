@@ -33,8 +33,8 @@
   {
       "POST": "/api/register",
       "field": {
-        "name": String,
-        "pwd": String
+        "name": String, // 用户名
+        "pwd": String // 密码
       }
   }
   ```
@@ -76,8 +76,8 @@
   {
     "POST": '/api/login',
     "field": {
-      "name": String,
-      "pwd": String
+      "name": String, // 用户名
+      "pwd": String  // 密码
     }
   }
   ```
@@ -117,8 +117,8 @@
   {
     "POST": '/api/bindstuid',
     "field": {
-      "stuid": String,
-      "name": String
+      "stuid": String, // 学号
+      "name": String // 用户名
     }
   }
   ```
@@ -153,7 +153,7 @@
   {
     "GET": '/api/stucourse',
     "feild": {
-    	"stuid": String
+    	"stuid": String // 学号
     }
   }
   ```
@@ -204,5 +204,110 @@
   }
   ```
 
-  ​
+### 发送评论接口
 
++ request
+
+  ```JavaScript
+  {
+    "POST": "/api/comment",
+    "field": {
+      "name": String, // 用户名,
+      "id": Integer, // 课程 id
+      "content": String // 评论内容
+    }
+  }
+  ```
+
++ response
+
+  ```javascript
+  // 成功
+  {
+    "status": 200,
+    "info": 'success'
+  }
+
+  // 参数不足
+  {
+      "status": 412,
+      "info": "lack of parameter"
+  }
+
+  // 没有绑定学号
+  {
+  	'status': 402,
+      'info': 'lack of authorized'
+  }
+
+
+  // 该学生不能评论这个课程
+  {
+  	'status': 401,
+       'info': 'authorized failed'  
+  }
+
+  // 服务器错误
+  {
+      "status": 500,
+      "info": "server error"
+  }
+  ```
+
+### 获取评论接口
+
++ request
+
+  ```JavaScript
+  {
+    "GET": "/api/comment",
+    "field": {
+      "course_id": Integer // 课程 id,
+    }
+  }
+  ```
+
++ response
+
+  ```javascript
+  // 成功
+  {
+    "status": 200,
+    "info": "success",
+    "data": [
+      {
+        "id": "1",
+        "content": "景小荣老湿很强",
+        "course_id": "100",
+        "comment_user": "ming"
+      },
+      {
+        "id": "2",
+        "content": "景小荣老湿很强",
+        "course_id": "100",
+        "comment_user": "ming"
+      },
+      {
+        "id": "3",
+        "content": "200",
+        "course_id": "100",
+        "comment_user": "ming"
+      },
+      {
+        "id": "4",
+        "content": "200",
+        "course_id": "100",
+        "comment_user": "ming"
+      }
+    ]
+  }
+
+
+  // 服务器错误
+  {
+      "status": 500,
+      "info": "server error"
+  }
+  ```
+
+  ​
