@@ -23,8 +23,10 @@ class IndexController extends Controller {
 
         $data = json_decode($response->body);
 
+        var_dump($data);
+
         if($data->status != 200) {
-            return false;
+            return [];
         }
         
         $kbList = $data->data;
@@ -65,14 +67,17 @@ class IndexController extends Controller {
     protected function getHotCourse() {
         $Model = new \Think\Model();
         $sql = <<<EOF
-            SELECT course.course_name, course.id, course.teacher FROM course LEFT JOIN
-            (SELECT course_id as b, COUNT(course_id) as a
-            FROM `comment` 
-            where course_id in
-            (SELECT DISTINCT course_id AS a FROM `comment`) 
-            GROUP BY course_id) as a  ON course.id = a.a LIMIT 10;
+SELECT course_id , COUNT(course_id) as comment_num
+FROM `comment` 
+where course_id in
+(SELECT DISTINCT course_id  FROM `comment` AS comment_course_id) 
+GROUP BY course_id limit 10;
 EOF;
-        $hotCourseList = $Model->query($sql);
+        $ids = $Model->query($sql);
+        $hotCourseList = [];
+        foreach($ids as $id) {
+            $hotCourseList[] = M('Course')->where('id=%d', $id)->find();
+        }
         return $hotCourseList;
     }
     protected function searchCourse($searchKey) {
@@ -93,7 +98,7 @@ EOF;
         $hot = $this->getHotCourse();
         $this->assign('hot', $hot);
 
-        $name = session('username');
+        $name = session('name');
         // $name = 'ming';
         if($name == NULL) {
             return $this->display('index');
@@ -101,7 +106,9 @@ EOF;
 
         $RelUserStuid = M('RelUserStuid');
         $stuid = $RelUserStuid->where(['name' => $name])->find();
-        $stuCourse = $this->getStuCourse($stuid);
+        $stuCourse = $this->getStuCourse($stuid['stuid']);
+
+        var_dump($stuid);
 
         $this->assign('stuCourse', $stuCourse);
 
@@ -126,7 +133,7 @@ EOF;
         $isSuccess = $User->where($userInfo)->find();
 
         if($isSuccess) {
-            session('username', $userInfo['name']);
+            session('name', $userInfo['name']);
 
             $this->success('登录成功', 'Index/index');
         } else {
@@ -169,7 +176,7 @@ EOF;
         if($stuid != '') {
             $this->addRelStuidName($name, $stuid);
         }
-        session('username', $name);
+        session('name', $name);
         session('stuid', $stuid);
 
         $this->success('注册成功', 'Index/index');
@@ -186,11 +193,72 @@ EOF;
 
 
 
+    public function comment($course_id) {
+        $course_id = I('get.course_id/i');
+        $Comment = M('Comment');
+
+        if(IS_GET) {
+            $Course = M('Course');
+            $course = $Course->where('id = %s', $course_id)->find();
+            $this->assign('course',$course);
+            $comments = $Comment->where(['course_id' => $course_id])->select();
+            $this->assign('comments', $comments);
+            return $this->display('comment');
+        }
+
+        $name = session('name');
+        $content = I('POST.content/s');
+        $course_id = I('POST.course_id/s');
+        
+        if($content == '') {
+            return $this->success('不要交空的评论啊~~');
+        }
+        if($name == NULL) {
+            return $this->success('请先登录', 'Index/login');
+        }
+        $Comment->create([
+            'id' => NULL, 
+            'content' => $content, 
+            'comment_user' => $name, 
+            'course_id' => $course_id
+        ]);
+        $Comment->add();
+
+        $this->success('评论成功');
+        // $this->redirect(U('Index/comment?course_id='.$course_id),3,'评论成功');
+    }
 
 
 
+    public function bindStuid() {
+        $name = session('name');
+        $stuid = I("post.stuid/s");
 
+        if($name == '' || stuid == '') {
+            $this->success('请先登录');
+            return;
+        }
 
+        $RelUserStuid = M('RelUserStuid');
+
+        $stuidOfName = !!$RelUserStuid->where(['name' => $name])->find();
+
+        if($stuidOfName) {
+
+            $RelUserStuid->where(['name' => $name])->save(['name' => $name, 'stuid' => $stuid]);
+            $this->success('成功');
+            return;
+        }
+
+        $RelUserStuid->create(['name' => $name, 'stuid' => $stuid]);
+        $isSuccess = $RelUserStuid->add();
+
+        if($isSuccess) {
+            $this->success('成功');
+        } else {
+            $this->success('服务器错误');
+        }
+    }
 
 
 

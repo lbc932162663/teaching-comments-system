@@ -30,6 +30,11 @@
                                 <li>
                                      <a href="{:U('Index/signup')}">注册</a>
                                 </li>
+                                <li class="divider">
+                                </li>
+                                <li>
+                                     <a href="{:U('Index/bindStuid')}">绑定学号</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -41,27 +46,11 @@
                 </div>
             </nav>
         </div>
-    <div class="container-fluid">
+    <div class="container-fluid"></div>
 
-    <div class="container-fluid" style="margin-top: 100px;">
-    <div class="row-fluid">
-        <div class="span12">
-            <h1 class="text-center">
-                搜索结果:
-            </h1>
-            
-            <if condition="($course == NULL)">
-                <h2  class="text-center"> 没有找到哦 </h2>
-            </if>
-            <foreach name="course" item="h">
-                <a href="{:U('Index/comment')}?course_id={$h.id}">
-                    <h2 class="text-center">{$h["course_name"]} -- {$h['teacher']}
-                    </h2>
-                </a>
-            </foreach>
+    <div class="container-fluid" style="margin-top: 100px;"></div>
 
-        </div>
-    </div>
+
 </div>
 </div>
 </div>
