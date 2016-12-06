@@ -267,7 +267,6 @@ class ApiController extends Controller {
             }
         }
 
-        new \phpSplit();
 
 
         $user_name = I('post.name/s');
