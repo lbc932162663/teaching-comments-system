@@ -202,7 +202,7 @@ class ApiController extends Controller {
             return;
         }
 
-        $RelUserStuid->create(['name' => $name, 'stuid' => stuid]);
+        $RelUserStuid->create(['name' => $name, 'stuid' => $stuid]);
         $isSuccess = $RelUserStuid->add();
 
         if($isSuccess) {
@@ -311,7 +311,7 @@ class ApiController extends Controller {
     public function getHotCourse() {
         $Model = new \Think\Model();
         $sql = <<<EOF
-            SELECT course.course_name FROM course LEFT JOIN
+            SELECT course.course_name, course.id, course.teacher FROM course LEFT JOIN
             (SELECT course_id as b, COUNT(course_id) as a
             FROM `comment` 
             where course_id in
@@ -320,6 +320,15 @@ class ApiController extends Controller {
 EOF;
         $hotCourseList = $Model->query($sql);
         $this->ajaxReturn($hotCourseList);
+    }
+    public function search() {
+        $searchKey = I('GET.searchKey');
+
+        $Model = new \Think\Model();
+
+        $result = $Model->query("select * from course where teacher like '%${searchKey}%' or course_name like '%${searchKey}%' ");
+
+        $this->ajaxReturn($result);
     }
 
     
