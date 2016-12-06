@@ -5,9 +5,6 @@ use Think\Controller;
 
 class IndexController extends Controller {
     public function index($id = NULL){
-
-    }
-    public function hello() {
-
+        
     }
 }

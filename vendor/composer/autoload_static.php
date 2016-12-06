@@ -6,6 +6,24 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitd2ff9499e6b6feed7de372f79b53962d
 {
+    public static $files = array (
+        '3b5531f8bb4716e1b6014ad7e734f545' => __DIR__ . '/..' . '/illuminate/support/Illuminate/Support/helpers.php',
+    );
+
+    public static $prefixLengthsPsr4 = array (
+        'p' => 
+        array (
+            'phpSplit\\' => 9,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'phpSplit\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/callwoola/php-split/src',
+        ),
+    );
+
     public static $prefixesPsr0 = array (
         'R' => 
         array (
@@ -14,11 +32,20 @@ class ComposerStaticInitd2ff9499e6b6feed7de372f79b53962d
                 0 => __DIR__ . '/..' . '/rmccue/requests/library',
             ),
         ),
+        'I' => 
+        array (
+            'Illuminate\\Support' => 
+            array (
+                0 => __DIR__ . '/..' . '/illuminate/support',
+            ),
+        ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd2ff9499e6b6feed7de372f79b53962d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd2ff9499e6b6feed7de372f79b53962d::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInitd2ff9499e6b6feed7de372f79b53962d::$prefixesPsr0;
 
         }, null, ClassLoader::class);

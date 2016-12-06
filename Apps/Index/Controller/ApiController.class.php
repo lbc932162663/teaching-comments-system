@@ -265,8 +265,9 @@ class ApiController extends Controller {
             } catch (Exception $e) {
                 return $this->ajaxReturn($this->return[500]);
             }
-
         }
+
+        new \phpSplit();
 
 
         $user_name = I('post.name/s');
@@ -306,6 +307,20 @@ class ApiController extends Controller {
         } catch (Exception $e) {
             return $this->ajaxReturn(($this->return[500]));
         }
+    }
+
+    public function getHotCourse() {
+        $Model = new \Think\Model();
+        $sql = <<<EOF
+            SELECT course.course_name FROM course LEFT JOIN
+            (SELECT course_id as b, COUNT(course_id) as a
+            FROM `comment` 
+            where course_id in
+            (SELECT DISTINCT course_id AS a FROM `comment`) 
+            GROUP BY course_id) as a  ON course.id = a.a LIMIT 10;
+EOF;
+        $hotCourseList = $Model->query($sql);
+        $this->ajaxReturn($hotCourseList);
     }
 
     
